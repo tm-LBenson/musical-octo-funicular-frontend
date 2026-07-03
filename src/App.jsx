@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import { BACKEND } from "./config";
+import Resources from "./Resources";
 
 function App() {
   const [health, setHealth] = useState("");
@@ -38,7 +39,8 @@ function App() {
   }
   return (
     <>
-      <h1>Test</h1>
+      <h1>Welcome!</h1>
+      <Resources />
     </>
   );
 }
